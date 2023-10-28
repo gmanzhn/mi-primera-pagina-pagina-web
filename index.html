@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo HTML y CSS</title>
+    <title>Mi Portafolio</title>
     <style>
-        /* Estilo para el encabezado */
-        h1 {
-            color: blue;
-        }
-
-        /* Estilo para el párrafo */
-        p {
-            color: green;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Este es un ejemplo simple de HTML y CSS.</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ejemplo HTML y CSS</title>
-    <style>
-        /* Estilo para el encabezado */
-        h1 {
-            color: #007BFF; /* Cambiamos el color a azul */
-            text-align: center; /* Centramos el texto */
-        }
-
-        /* Estilo para el párrafo */
-        p {
-            color: #28A745; /* Cambiamos el color a verde */
-            font-size: 18px;
-            text-align: center; /* Centramos el texto */
-            margin-top: 20px; /* Agregamos un espacio en la parte superior */
-        }
-
-        /* Estilo para el cuerpo de la página */
         body {
-            background-color: #F8F9FA; /* Cambiamos el color de fondo */
-            font-family: Arial, sans-serif; /* Cambiamos la fuente del texto */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF0000;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        nav {
+            background-color: #990000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header
+          #logo {
+            width: 150px; /* Ajusta el ancho de la imagen según lo necesites */
+            height: auto; /* Mantiene la proporción original de la imagen */}
+            
+        section {
+            background-color: aqua;
+            padding: 50px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #8C001A;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Este es un ejemplo simple de HTML y CSS.</p>
+    <header>
+        <img id="logo" src="https://media.istockphoto.com/id/1487218062/es/foto/el-bal%C3%B3n-de-f%C3%BAtbol-vol%C3%B3-hacia-la-porter%C3%ADa-la-pelota-de-f%C3%BAtbol-dobla-la-red-contra-el-fondo-de.jpg?s=1024x1024&w=is&k=20&c=v0xWX-ska8qOHsd0avU4JDXJ1b5U9JQlBDN2xgr3QyA=" alt="Logo">
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <p>Soy German Zepeda, Desarrollador de Software</p>
+    </header>
+
+    <nav>
+        <a href="#sobre_mi">Sobre Mí</a> |
+        <a href="#proyectos">Proyectos</a> |
+        <a href="#habilidades">Habilidades</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="sobre_mi">
+        <h2>Sobre Mí</h2>
+        <p>Apasionado desarrollador con experiencia en soluciones innovadoras y eficientes.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí podrías destacar o enlazar algunos de tus proyectos.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <p>Enumera tus habilidades clave y tecnologías que dominas.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Ponte en contacto conmigo para colaboraciones y oportunidades!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Nombre</p>
+    </footer>
 </body>
 </html>
+
